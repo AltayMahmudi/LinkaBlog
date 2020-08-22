@@ -1,0 +1,193 @@
+﻿@model Post
+@{ViewBag.Title = Model.Title;
+	ViewBag.Description = Model.Description;
+	ViewBag.Keywords = $"{Model.Tags?.Replace(",", "")}{Model.Category}";
+}
+<head>
+	<title>@ViewBag.Title</title>
+</head>
+
+<!-- Start Blog Details Area -->
+
+
+
+<section class="blog-details-area ptb-100">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="blog-details-desc blog-details-four sidebar-without">
+					<div class="article-content">
+						<div class="article-image">
+							@if (!String.IsNullOrEmpty(Model.Image))
+							{
+								var image_path = $"/Image/{Model.Image}";
+
+								<img src="@image_path">
+
+							}
+						</div>
+						<div class="entry-meta">
+							<ul>
+								<li><span>Posted On:</span> <a>@String.Format("{0:yyyy/MM/dd/hh:mm}", Model.Created)</a></li>
+								<li><span>Posted By:</span> <a href="#">@User.Identity.Name</a></li>
+							</ul>
+						</div>
+						<h3 class="mb-3">@Model.Title</h3>
+
+						<p>@Model.Body</p>
+
+						<h3 class="related-posts">Related Post</h3>
+
+						<div class="row">
+							<div class="col-lg-6 col-sm-6">
+								<div class="b-d-s-item mb-30">
+									<a asp-controller="Blog" asp-action="Post">
+										<img src="~/img/blog-img/1.jpg" alt="Image">
+										<span class="s-date">
+											08 <br> jun
+										</span>
+										<h3>@Model.Title</h3>
+									</a>
+
+									<p>@Model.</p>
+
+									<a asp-controller="Blog" asp-action="Post">Read More</a>
+								</div>
+							</div>
+
+						</div>
+
+
+
+						<div class="article-footer">
+							<div class="article-tags">
+								<span><i class='bx bx-share-alt'></i></span>
+
+								<a href="#">Share</a>
+							</div>
+
+							<div class="article-share">
+								<ul class="social">
+									<li>
+										<a href="#" target="_blank">
+											<i class='bx bxl-facebook'></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank">
+											<i class='bx bxl-twitter'></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank">
+											<i class='bx bxl-linkedin'></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank">
+											<i class='bx bxl-pinterest-alt'></i>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+						<div class="post-navigation">
+							<div class="navigation-links">
+								<div class="nav-previous">
+									<a href="#"><i class='bx bx-left-arrow-alt'></i> Prev Post</a>
+								</div>
+
+								<div class="nav-next">
+									<a href="#">Next Post <i class='bx bx-right-arrow-alt'></i></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="comments-area">
+							<h3 class="comments-title">Comments:</h3>
+							@if (Model.MainComments == null)
+							{
+								<h3 class="comments-title">NoComments</h3>
+							}
+							else
+							{
+								<ol class="comment-list">
+									<li class="comment">
+
+										@foreach (var c in Model.MainComments)
+										{
+											<div class="comment-body">
+												<footer class="comment-meta">
+													<div class="comment-author vcard">
+														<img src="~/img/blog-details/comment-img-1.jpg" class="avatar" alt="image">
+														<b class="fn">@c.Name</b>
+														<span class="says">says:</span>
+													</div>
+
+													<div class="comment-metadata">
+														<a href="#">
+															<span>@c.Created</span>
+														</a>
+													</div>
+												</footer>
+
+												<div class="comment-content">
+													<p>@c.Message</p>
+												</div>
+
+												@{
+													await Html.RenderPartialAsync("_SubComment", new CommentViewModel { PostId = Model.Id, MainCommentId = c.Id });
+												}
+											</div>
+											@foreach (var sc in c.SubComments)
+											{
+												<ol class="children">
+													<li class="comment">
+														<div class="comment-body">
+															<footer class="comment-meta">
+																<div class="comment-author vcard">
+																	<img src="~/img/blog-details/comment-img-2.jpg" class="avatar" alt="image">
+																	<b class="fn">@sc.Name</b>
+																	<span class="says">says:</span>
+																</div>
+
+																<div class="comment-metadata">
+																	<a href="#">
+																		<span>@sc.Created</span>
+																	</a>
+																</div>
+															</footer>
+
+															<div class="comment-content">
+																<p>@sc.Message</p>
+															</div>
+
+															<div class="reply">
+																<div class="form-group">
+
+																</div>
+															</div>
+														</div>
+													</li>
+												</ol>
+											}
+										}
+									</li>
+
+
+								</ol>
+							}
+							@{
+								await Html.RenderPartialAsync("_MainComment", new CommentViewModel { PostId = Model.Id, MainCommentId = 0 });
+							}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- End Blog Details Area -->

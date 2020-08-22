@@ -1,0 +1,127 @@
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.deps.json
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.runtimeconfig.json
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.runtimeconfig.dev.json
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.dll
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.pdb
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.Views.dll
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.Views.pdb
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.AssemblyInfo.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.TagHelpers.input.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.TagHelpers.output.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorCoreGenerate.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorTargetAssemblyInfo.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.Views.pdb
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.dll
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.pdb
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.csproj.CopyComplete
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\Contact.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\PrivacyPolicy.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\TermsConditions.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.csprojAssemblyReference.cache
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Edit.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Post.cshtml.g.cs
+C:\Users\User\source\repos\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\bundleconfig.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\bundleconfig.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.deps.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.runtimeconfig.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.runtimeconfig.dev.json
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.dll
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.pdb
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.Views.dll
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.Views.pdb
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.AssemblyInfo.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.TagHelpers.input.cache
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.TagHelpers.output.cache
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorCoreGenerate.cache
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Post.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\Contact.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\PrivacyPolicy.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\TermsConditions.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Edit.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.Views.pdb
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.dll
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.pdb
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.csproj.CopyComplete
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\_MainComment.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\_SubComment.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.csprojAssemblyReference.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\bundleconfig.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.deps.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.runtimeconfig.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.runtimeconfig.dev.json
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.dll
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.pdb
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.Views.dll
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\bin\Debug\netcoreapp2.1\LinkaBlog.Views.pdb
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.AssemblyInfo.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.TagHelpers.input.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.TagHelpers.output.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorCoreGenerate.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Post.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\_MainComment.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Blog\_SubComment.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\Contact.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\PrivacyPolicy.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Pages\TermsConditions.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Edit.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Panel\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.Views.pdb
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.dll
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.pdb
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.csproj.CopyComplete
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Roles\_AddUserToRole.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Roles\_CreateRole.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\Razor\Views\Roles\Login.cshtml.g.cs
+C:\Users\User\Desktop\RIGHT NORW - Copy\LinkaBlog\LinkaBlog\obj\Debug\netcoreapp2.1\LinkaBlog.csprojAssemblyReference.cache

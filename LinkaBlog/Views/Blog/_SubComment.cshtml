@@ -1,0 +1,34 @@
+﻿
+@model CommentViewModel
+@{}
+
+
+	<div class="comment-respond">
+		<form class="comment-form" method="post" asp-controller="Blog" asp-action="Comment">
+			@if (User.Identity.IsAuthenticated)
+			{
+
+				<label>Comment</label>
+
+
+				<input asp-for="PostId" type="hidden">
+				<input asp-for="MainCommentId" type="hidden">
+				<input asp-for="Name" value="@User.Identity.Name" type="hidden">
+				<textarea asp-for="Message" cols="10" rows="1" maxlength="65525" required="required"></textarea>
+
+				<p class="form-submit">
+					<input type="submit" name="submit" id="submit" class="submit" value="Post A Comment">
+				</p>
+
+			}
+			else
+			{
+
+				<p class="form-submit">
+					<input type="submit" class="submit" asp-controller="Auth" asp-action="Login" value="Log In to Reply">
+				</p>
+			}
+
+
+		</form>
+	</div>

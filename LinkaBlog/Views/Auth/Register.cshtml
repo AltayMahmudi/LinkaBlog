@@ -1,0 +1,102 @@
+﻿@model RegisterViewModel
+
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-7">
+	<div class="container">
+		<div class="page-title-content">
+			<h2>Sign In</h2>
+			<ul>
+				<li>
+					<a href="index.html">
+						Home
+					</a>
+				</li>
+
+				<li>Pages</li>
+				<li>User</li>
+				<li class="active">Sign In</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- End Page Title Area -->
+<!-- Start Sign Up Area -->
+<div class="user-area-all-style sign-up-area ptb-100">
+	<div class="container">
+		<div class="contact-form-action">
+			<form method="post" asp-controller="Auth" asp-action="Register">
+				<div class="row">
+
+					@*<div class="col-md-12 col-sm-12">
+							<div class="form-group">
+								<input class="form-control" type="text" name="name" placeholder="Enter your Username">
+							</div>
+						</div>*@
+					<div class="col-md-12 col-sm-12">
+						<div class="form-group">
+							<input class="form-control" type="text" asp-for="UserName" placeholder="Email Address">
+							<span asp-validation-for="UserName"></span>
+
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12">
+						<div class="form-group">
+							<input class="form-control" type="email" asp-for="Email" placeholder="Email Address">
+							<span asp-validation-for="Email"></span>
+
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12">
+						<div class="form-group">
+							<input class="form-control" type="text" asp-for="password" placeholder="Password">
+							<span asp-validation-for="password"></span>
+
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 ">
+						<div class="form-group">
+							<input class="form-control" type="text" asp-for="confirmPassword" placeholder="Confirm Password">
+							<span asp-validation-for="confirmPassword"></span>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 form-condition">
+						<div class="agree-label">
+							<input type="checkbox" asp-for="PrivacyPolicy">
+							<label for="chb1">
+								I agree with Surety
+								<a href="privacy-policy.html">Privacy Policy </a>
+							</label>
+
+						</div>
+
+						<div class="agree-label">
+							<input type="checkbox" asp-for="TermsConditions">
+							<span asp-validation-for="TermsConditions"></span>
+							<label for="chb2">
+								I agree with Surety
+								<a href="terms-conditions.html">Terms & Conditions</a>
+							</label>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<button class="default-btn btn-two" type="submit">
+							Register Account
+						</button>
+					</div>
+
+					<div class="col-12">
+						<p class="account-desc">
+							Already have an account?
+							<a asp-controller="Auth" asp-action="Login"> Log In</a>
+						</p>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- End Sign Up Area -->

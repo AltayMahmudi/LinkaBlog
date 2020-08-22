@@ -1,0 +1,117 @@
+﻿@model PostViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+    <link href="~/lib/bootstrap-select-1.13.14/dist/css/bootstrap-select.css" rel="stylesheet" />
+@*<link href="~/lib/Trumbowyg-master/dist/ui/trumbowyg.css" rel="stylesheet" />*@
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-7">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Write a Post</h2>
+
+        </div>
+    </div>
+</div>
+
+<div class="user-area-all-style log-in-area ptb-100">
+    <div class="container">
+        <div class="review-form">
+
+
+            <h3>EDIT POST </h3>
+
+
+            <form asp-controller="Panel" asp-action="Edit" method="post" enctype="multipart/form-data">
+                <input asp-for="Id" type="hidden" />
+                <input asp-for="AdminName" type="hidden" value="@User.Identity.Name" />
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12">
+
+                        <div class="form-group">
+                            <label>Title</label>
+                            <input type="text" placeholder="Enter Blog Title" class="form-control" asp-for="Title">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Description</label>
+                            <input type="text" placeholder="Description" class="form-control" asp-for="Description">
+                        </div>
+                        <div class="form-group">
+                            <label>Tags</label>
+                            <input type="text" placeholder="Tags" class="form-control" asp-for="Tags">
+                        </div>
+
+
+
+                        <div class="form-group form-inline ">
+                            <label style=" margin:1%;">Choose category:</label>
+                            <select asp-for="Category">
+                                <option value="None">None</option>
+                                <option value="Lifestyle">Lifestyle</option>
+                                <option value="Fashion">Fashion</option>
+                                <option value="Music">Music</option>
+                                <option value="Culture">Culture</option>
+                                <option value="World">World</option>
+                                <option value="Fitness">Fitness</option>
+                                <option value="Tech">Tech</option>
+                                <option value="Travel">Travel</option>
+                            </select>
+
+                            <label style=" margin:1%;">Choose Subcategory:</label>
+                            <select asp-for="SubCategory">
+                                <option value="None">None</option>
+                                <option value="Featured">Featured</option>
+                                <option value="EditorChoice">Editor Choice</option>
+                                <option value="EditorSideBar">Editor Side Bar</option>
+                                @*Inspiration*@
+                                <option value="WideBar">WideBar</option>
+                                <option value="LatestProject">Latest Project</option>
+                                <option value="LatestProjectSideBar">Latest Project SideBar</option>
+                                <option value="LatestProjectSideBarBig">Latest Project SideBar Big</option>
+                                <option value="1">Slider First</option>
+                                <option value="2">Slider Second</option>
+                                <option value="3">Slider Third</option>
+                                <option value="4">Slider Fourth</option>
+                                <option value="5">Slider Fifth</option>
+                                <option value="6">Slider Sixth</option>
+                                <option value="7">Slider Seventeth</option>
+                                <option value="8">Slider Eighteth</option>
+                                <option value="9">Slider Nineteh</option>
+
+                            </select>
+
+                            <label style=" margin:1%;">Post Status:</label>
+                            <select asp-for="IsActive">
+                                <option value="Enabled">Enabled</option>
+                                <option value="Disabled">Disabled</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="form-group">
+                            <label>Body(1500)</label>
+                            <textarea cols="30" rows="8" id="editor" placeholder="Write Blog Here" class="form-control" asp-for="Body"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="form-group">
+                            <label>Image</label>
+                            <input asp-for="CurrentImage" type="hidden">
+                            <input asp-for="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <button type="submit" class="btn default-btn">Submit Post</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+}
+

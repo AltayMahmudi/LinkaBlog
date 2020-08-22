@@ -1,0 +1,140 @@
+﻿@model IndexViewModel
+@{
+    ViewData["Title"] = "Blog";
+}
+<style>
+    .grid-item {
+        align-items: center
+    }
+</style>
+
+<div class="page-title-area bg-1">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Posts</h2>
+            <div class="search-overlay search-popup align-items-center">
+                <div class='search-box'>
+                    <form class="search-form">
+                        <input class="search-input" name="search" style="width: 600px; height: 40px" placeholder="Search" type="text">
+
+                        <button class="search-button" type="submit" style="width: 40px; height: 40px"><i class="bx bx-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="product-area ptb-100">
+    <div class="container">
+        <!-- End Page Title Area -->
+        <!-- Start Inner Shop Area -->
+        <section class="featured-area one pb-70 ">
+            <div class="container single-product-box ">
+                <section class="featured-area one pb-70">
+                    <div class="container">
+                        <div class="row">
+
+
+
+                            @foreach (var post in Model.Posts)
+                            {
+                                @if (post.IsActive == "Enabled")
+                                {
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="single-featured">
+                                            <a asp-controller="Blog" asp-action="Post" asp-route-id="@post.Id" class="blog-img">
+
+                                                @if (!String.IsNullOrEmpty(@post.Image))
+                                                {
+                                                    var image_path = $"/Image/{@post.Image}";
+
+                                                    <img src="@image_path" alt="Image">
+
+                                                }
+                                                <span>lifestyle</span>
+                                            </a>
+                                            <div class="featured-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="admin">
+                                                            <i class="bx bx-user"></i>
+                                                            @post.AdminName
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <i class="bx bx-calendar"></i>
+                                                        @post.Created
+                                                    </li>
+                                                </ul>
+
+                                                <ul>
+                                                    <li>
+                                                        <a asp-controller="Blog" asp-action="Post" asp-route-id="@post.Id" class="read-more d-inline">
+                                                            <h3>@post.Title</h3>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <a asp-controller="Blog" asp-action="Post" asp-route-id="@post.Id" class="read-more">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            }
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <div class="col-lg-12">
+            <div class="page-navigation-area">
+                <nav>
+                    <ul class="pagination">
+
+                        <li class="page-item">
+                            @if (Model.PageNumber > 1)
+                            {
+                                <a class="page-link" asp-action="Index" asp-controller="Panel" asp-route-pageNumber="@(Model.PageNumber - 1)">
+                                    <i class='bx bx-chevrons-left'></i>
+                                </a>
+                            }
+                        </li>
+
+                        @*<li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>*@
+
+
+                        @for (int i = 1; i <= Model.PageCount; i++)
+                        {
+                            if (i == Model.PageNumber)
+                            {
+                                <li class="page-item active">
+                                    <a class="page-link" asp-action="Index" asp-controller="Blog"asp-route-category="@Model.Category" asp-route-pageNumber="@i">@i</a>
+                                </li>
+}
+                            else
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" asp-action="Index" asp-controller="Blog" asp-route-category="@Model.Category" asp-route-pageNumber="@i">@i</a>
+                                </li>
+                            }
+                        }
+
+                        <li class="page-item">
+                            @if (Model.NextPage)
+                            {
+                                <a class="page-link" asp-action="Index" asp-controller="Blog" asp-route-category="@Model.Category" asp-route-pageNumber="@(Model.PageNumber + 1)">
+                                    <i class='bx bx-chevrons-right'></i>
+                                </a>
+                            }
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+

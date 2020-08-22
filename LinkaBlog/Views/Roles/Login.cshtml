@@ -1,0 +1,71 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+<!-- Start Log In Area -->
+<div class="user-area-all-style log-in-area ptb-100">
+    <div class="container">
+        <div class="contact-form-action">
+            <form method="post" asp-controller="Auth" asp-action="Login">
+                <div class="row">
+                    @*<div class="col-lg-4 col-md-4 col-sm-12">
+                        <button class="default-btn" type="submit">
+                            Google
+                        </button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <button class="default-btn" type="submit">
+                            Facebook
+                        </button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <button class="default-btn" type="submit">
+                            Twitter
+                        </button>
+                    </div>*@
+
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input class="form-control" type="text" n asp-for="UserName" placeholder="Username or Email">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input class="form-control"  asp-for="Password"  type="password" placeholder="Password">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6 form-condition">
+                        <div class="agree-label">
+                            <input type="checkbox" id="chb1">
+                            <label for="chb1">
+                                Remember Me
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <a class="forget" href="recover-password.html">Forgot my password?</a>
+                    </div>
+
+                    <div class="col-12">
+                        <button class="default-btn btn-two" type="submit" value="Sign In">
+                            Log In Now
+                        </button>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="account-desc">
+                            Not a member?
+                            <a href="sign-in.html">Register</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- End Log In Area -->

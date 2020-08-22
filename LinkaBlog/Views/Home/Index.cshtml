@@ -1,0 +1,834 @@
+﻿@model IEnumerable<Post>
+@{ViewData["Title"] = "Home Page";}
+
+@{ViewBag.Title = "Blog Website";
+    ViewBag.Description = "Your daily Blog!";
+    ViewBag.Keywords = "Lifestyle Fashion Music Culture World Fitness Tech Travel";
+}
+<!-- Start Main Blog Area -->
+
+<section class="main-blog-area pb-100">
+    <div class="container-fluid">
+        <div class="main-blog-slider-item-wrap owl-carousel owl-theme">
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "1")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        @if (!String.IsNullOrEmpty(@post.Image))
+                        {
+                            var image_path = $"/Image/{@post.Image}";
+
+                            <img src="@image_path" alt="Image">
+
+                        }
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a href="post-style-one.html">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "2")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        @if (!String.IsNullOrEmpty(@post.Image))
+                        {
+                            var image_path = $"/Image/{@post.Image}";
+
+                            <img src="@image_path" alt="Image">
+
+                        }
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "3")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "4")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "5")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "6")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "7")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "8")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "9")
+                {
+
+
+                    <div class="single-main-blog-item">
+                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                            @if (!String.IsNullOrEmpty(@post.Image))
+                            {
+                                var image_path = $"/Image/{@post.Image}";
+
+                                <img src="@image_path" alt="Image">
+
+                            }
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=mLVJr1au7uY" class="blog-link">
+                            Video
+                        </a>
+
+                        <div class="main-blog-content">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                <h3>@post.Title</h3>
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="#" class="admin">
+                                        <i class="bx bx-user"></i>
+                                        @post.AdminName
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+<!-- End Main Blog Area -->
+<!-- Start Featured Area -->
+<section class="featured-area one pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Featured</h2>
+        </div>
+
+        <div class="row">
+
+            @foreach (var post in Model)
+            {
+
+                if (post.SubCategory == "Featured")
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-featured">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                @if (!String.IsNullOrEmpty(@post.Image))
+                                {
+                                    var image_path = $"/Image/{@post.Image}";
+
+                                    <img src="@image_path" alt="Image">
+
+                                }
+                                <span></span>
+                            </a>
+
+                            <div class="featured-content">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="admin">
+                                            <i class="bx bx-user"></i>
+                                            By @post.AdminName
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-calendar"></i>
+                                        @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                            <h3>@post.Title</h3>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+
+
+
+        </div>
+    </div>
+</section>
+<!-- End Featured Area -->
+<!-- End Featured Area -->
+<!-- Start Editor Choice Area -->
+<section class="featured-area one pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Editor's Choice</h2>
+        </div>
+
+        <div class="row">
+
+            @foreach (var post in Model)
+            {
+
+                if (post.SubCategory == "EditorChoice")
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-featured">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                @if (!String.IsNullOrEmpty(@post.Image))
+                                {
+                                    var image_path = $"/Image/{@post.Image}";
+
+                                    <img src="@image_path" alt="Image">
+
+                                }
+                                <span></span>
+                            </a>
+
+                            <div class="featured-content">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="admin">
+                                            <i class="bx bx-user"></i>
+                                            By @post.AdminName
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-calendar"></i>
+                                        @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                            <h3>@post.Title</h3>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+
+
+
+        </div>
+    </div>
+</section>
+<!-- End Editor Choice Area -->
+<!-- Start Inspiration Area -->
+@*<section class="inspiration-area pt-100 pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Inspiration</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+
+                @foreach (var post in Model)
+                {
+                    if (post.SubCategory == "Inspiration")
+                    {
+
+                        <div class="single-inspiration">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                @if (!String.IsNullOrEmpty(@post.Image))
+                                {
+                                    var image_path = $"/Image/{@post.Image}";
+
+                                    <img src="@image_path" alt="Image">
+
+                                }
+                            </a>
+                            <span class="blog-link">
+                                @post.Category
+                            </span>
+
+                            <div class="inspiration-content">
+                                <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                    <h3>@post.Title</h3>
+                                </a>
+
+                                <ul>
+                                    <li>
+                                        <a href="#" class="admin">
+                                            <i class="bx bx-user"></i>
+                                            By Jhona Walker
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-calendar"></i>
+                                        @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    
+                    }
+               
+                }
+            </div>
+        </div>
+    </div>
+    
+</section>*@
+<!-- End Inspiration Area -->
+<!-- Start Full BLog Area -->
+<section class="full-blog pb-100">
+    <div class="container-fluid">
+        <div class="row">
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "WideBar")
+                {
+                    <div class="col-lg-6 p-0">
+                        <div class="single-full-blog">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                @if (!String.IsNullOrEmpty(@post.Image))
+                                {
+                                    var image_path = $"/Image/{@post.Image}";
+
+                                    <img src="@image_path" alt="Image">
+
+                                }
+                            </a>
+
+                            <div class="full-blog-content">
+                                <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                    <h3>@post.Title</h3>
+                                </a>
+
+                                <ul>
+                                    <li>
+                                        <a href="#" class="admin">
+                                            <i class="bx bx-user"></i>
+                                            By  @post.AdminName
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-calendar"></i>
+                                        @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+<!-- End Full BLog Area -->
+<!-- Start Latest Project Area -->
+<section class="latest-project-area pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Latest Project</h2>
+        </div>
+
+        <div class="row">
+            @foreach (var post in Model)
+            {
+                if (post.SubCategory == "LatestProject")
+                {
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-featured">
+                                    <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                        @if (!String.IsNullOrEmpty(@post.Image))
+                                        {
+                                            var image_path = $"/Image/{@post.Image}";
+
+                                            <img src="@image_path" alt="Image">
+
+                                        }
+                                    </a>
+
+                                    <div class="featured-content">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="admin">
+                                                    <i class="bx bx-user"></i>
+                                                     By  @post.AdminName
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <i class="bx bx-calendar"></i>
+                                                @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                            </li>
+                                        </ul>
+
+                                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                            <h3>@post.Title</h3>
+                                        </a>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam eveniet debitis tenetur, eaque aliquid recusandae expedita. Porro dicta delectus</p>
+
+                                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				}
+			}
+
+                    <div class="col-lg-4">
+                        <div class="latest-project-right-sidebar">
+
+                            @foreach (var post in Model)
+                            {
+                                if (post.SubCategory == "LatestProjectSideBar")
+                                {
+                                    <div class="light-news mb-30">
+                                        <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                            @if (!String.IsNullOrEmpty(@post.Image))
+                                            {
+                                                var image_path = $"/Image/{@post.Image}";
+
+                                                <img src="@image_path" alt="Image">
+
+                                            }
+                                        </a>
+
+                                        <div class="light-news-content">
+                                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                                <h3>@post.Title</h3>
+                                            </a>
+
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="admin">
+                                                        <i class="bx bx-user"></i>
+                                                        By Admon Altk Walker
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <i class="bx bx-calendar"></i>
+                                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                }
+                            }
+
+                            @foreach (var post in Model)
+                            {
+                                if (post.SubCategory == "LatestProjectSideBarBig")
+                                {
+                        <div class="right-blog-editor media align-items-center">
+                            <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id" class="blog-img">
+                                @if (!String.IsNullOrEmpty(@post.Image))
+                                {
+                                    var image_path = $"/Image/{@post.Image}";
+
+                                    <img src="@image_path" alt="Image">
+
+                                }
+                            </a>
+
+                            <div class="right-blog-content">
+                                <a asp-action="Post" asp-controller="Blog" asp-route-id="@post.Id">
+                                    <h3>@post.Title</h3>
+                                </a>
+
+
+                                <span>
+                                    <i class="bx bx-calendar"></i>
+                                    @String.Format("{0:yyyy/MM/dd/hh:mm}", @post.Created)
+                                </span>
+                            </div>
+                        </div>
+								}
+							}
+
+
+                                    <div class="follows-area">
+                                        <h3>Follow Us on</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="#" target="_blank">
+                                                    Facebook <br>
+
+                                                    <i class="bx bxl-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank">
+                                                    Twitter <br>
+
+                                                    <i class="bx bxl-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank">
+                                                    Instagram <br>
+
+                                                    <i class="bx bxl-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank">
+                                                    YouTube <br>
+                                                    @*<span>502k Subscribe</span>*@
+                                                    <i class="bx bxl-youtube"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div>
+        </div>
+    </div>
+</section>
+<!-- End Latest Project Area -->
+
+@section Scripts{
+    <!-- End Go Top Area -->
+    <!-- Jquery-3.5.1.Slim.Min.JS -->
+    <script src="~/js/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="~/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="~/js/bootstrap.min.js"></script>
+    <!-- Meanmenu JS -->
+    <script src="~/js/jquery.meanmenu.js"></script>
+    <!-- Wow JS -->
+    <script src="~/js/wow.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="~/js/owl.carousel.js"></script>
+    <!-- Owl Magnific JS -->
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="~/js/jquery.nice-select.min.js"></script>
+    <!-- Form Validator JS -->
+    <script src="~/js/form-validator.min.js"></script>
+    <!-- Contact JS -->
+    <script src="~/js/contact-form-script.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="~/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Custom JS -->
+    <script src="~/js/custom.js"></script>
+
+
+}
+@section Head{
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <!-- Owl Theme Default CSS -->
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <!-- Owl Magnific CSS -->
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="~/css/animate.css">
+    <!-- Boxicons CSS -->
+    <link rel="stylesheet" href="~/css/boxicons.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <!-- Meanmenu CSS -->
+    <link rel="stylesheet" href="~/css/meanmenu.css">
+    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="~/css/nice-select.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <!-- Favicon -->
+}
